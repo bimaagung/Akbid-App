@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.otet.akbidapp.MenuUtama">
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        style="@style/btnMaterimenu"
+        android:id="@+id/btnmateri"
+        android:text="Materi"
+        android:textSize="27dp"
+        android:translationX="-120dp"
+        android:layout_alignTop="@+id/btnquiz"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        style="@style/btnQuizmenu"
+        android:text="Quiz"
+        android:textSize="27dp"
+        android:translationX="120dp"
+        android:id="@+id/btnquiz"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        style="@style/btnClosemenu"
+        android:text="X"
+        android:textSize="30dp"
+        android:id="@+id/btnkeluar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="13dp" />
+
+
+</RelativeLayout>
